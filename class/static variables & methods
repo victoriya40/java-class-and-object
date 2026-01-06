@@ -1,0 +1,12 @@
+class College{
+    static String collegename="kahe";
+    static void displayCollege(){
+        System.out.println("College name: "+collegename);
+    }
+}
+public class Main{
+    public static void main(String[]args){
+        System.out.println(College.collegename);
+    College.displayCollege();
+}
+}
